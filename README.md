@@ -296,8 +296,6 @@ Gets all levels created by this user.
 ### user.getProfile() ⇒ [<code>Promise.&lt;User&gt;</code>](#User)
 Fetches the user's profile on [totaljerkface.com](http://www.totaljerkface.com/) and applies it to itself.
 
-<a name="Options"></a>
-
 ## Options
 
 ```
@@ -312,3 +310,5 @@ Fetches the user's profile on [totaljerkface.com](http://www.totaljerkface.com/)
    replayID: 'id'
 }
 ```
+
+<a name="Options"></a>

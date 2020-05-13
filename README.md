@@ -1,7 +1,7 @@
 ## Classes
 
 <dt><a href="#HappyWheels">HappyWheels</a></dt>
-
+<br>
 <dt><a href="#Level">Level</a></dt>
 <dt><a href="#Replay">Replay</a></dt>
 <dt><a href="#User">User</a></dt>

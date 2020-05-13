@@ -1,6 +1,9 @@
 ## Classes
 
 <dl>
+<dt><a href="#HappyWheels">HappyWheels</a></dt>
+<dd><p>The main class. Used to interact with the api.</p>
+</dd>
 <dt><a href="#Level">Level</a></dt>
 <dd><p>Represents a level on happy wheels.</p>
 </dd>
@@ -11,6 +14,76 @@
 <dd><p>Represents a user on happy wheels.</p>
 </dd>
 </dl>
+
+<a name="HappyWheels"></a>
+
+## HappyWheels
+The main class. Used to interact with the api.
+
+**Kind**: global class  
+
+* [HappyWheels](#HappyWheels)
+    * [.searchLevels(query, options)](#HappyWheels.searchLevels) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
+    * [.getFeatured(options)](#HappyWheels.getFeatured) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
+    * [.getLevel(id)](#HappyWheels.getLevel) ⇒ [<code>Promise.&lt;Level&gt;</code>](#Level)
+    * [.getReplay(id)](#HappyWheels.getReplay) ⇒ [<code>Promise.&lt;Replay&gt;</code>](#Replay)
+    * [.getUser(id)](#HappyWheels.getUser) ⇒ [<code>Promise.&lt;User&gt;</code>](#User)
+
+<a name="HappyWheels.searchLevels"></a>
+
+### HappyWheels.searchLevels(query, options) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
+Searches levels in happy wheels
+
+**Kind**: static method of [<code>HappyWheels</code>](#HappyWheels)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| query | <code>String</code> | query |
+| options | <code>Object</code> | options |
+
+<a name="HappyWheels.getFeatured"></a>
+
+### HappyWheels.getFeatured(options) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
+Gets happy wheels featured levels
+
+**Kind**: static method of [<code>HappyWheels</code>](#HappyWheels)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| options | <code>Object</code> | options |
+
+<a name="HappyWheels.getLevel"></a>
+
+### HappyWheels.getLevel(id) ⇒ [<code>Promise.&lt;Level&gt;</code>](#Level)
+Gets happy wheels level
+
+**Kind**: static method of [<code>HappyWheels</code>](#HappyWheels)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| id | <code>String</code> | level id |
+
+<a name="HappyWheels.getReplay"></a>
+
+### HappyWheels.getReplay(id) ⇒ [<code>Promise.&lt;Replay&gt;</code>](#Replay)
+Gets happy wheels replay
+
+**Kind**: static method of [<code>HappyWheels</code>](#HappyWheels)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| id | <code>String</code> | replay id |
+
+<a name="HappyWheels.getUser"></a>
+
+### HappyWheels.getUser(id) ⇒ [<code>Promise.&lt;User&gt;</code>](#User)
+Gets happy wheels user
+
+**Kind**: static method of [<code>HappyWheels</code>](#HappyWheels)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| id | <code>String</code> | user id |
 
 <a name="Level"></a>
 
@@ -278,4 +351,4 @@ Gets all levels created by this user.
 ### user.getProfile() ⇒ [<code>Promise.&lt;User&gt;</code>](#User)
 Fetches the user profile on [totaljerkface.com](http://www.totaljerkface.com/).
 
-**Kind**: instance method of [<code>User</code>](#User)
+**Kind**: instance method of [<code>User</code>](#User)  

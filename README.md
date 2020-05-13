@@ -19,22 +19,22 @@ The main class. Used to interact with the api.
 
 <a name="HappyWheels.searchLevels"></a>
 
-### HappyWheels.searchLevels(query, [options]) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
+### HappyWheels.searchLevels(query, [<a href="#User">options</a>]) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
 Searches levels in happy wheels
 
 | Param | Type | Description |
 | --- | --- | --- |
 | query | <code>String</code> | query |
-| ?options | <code>Object</code> | options |
+| ?<a href="#User">options</a> | <code>Object</code> | options |
 
 <a name="HappyWheels.getFeatured"></a>
 
-### HappyWheels.getFeatured([options]) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
+### HappyWheels.getFeatured([<a href="#User">options</a>]) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
 Gets happy wheels featured levels
 
 | Param | Type | Description |
 | --- | --- | --- |
-| ?options | <code>Object</code> | options |
+| ?<a href="#User">options</a> | <code>Object</code> | options |
 
 <a name="HappyWheels.getLevel"></a>
 
@@ -295,3 +295,20 @@ Gets all levels created by this user.
 
 ### user.getProfile() ⇒ [<code>Promise.&lt;User&gt;</code>](#User)
 Fetches the user's profile on [totaljerkface.com](http://www.totaljerkface.com/) and applies it to itself.
+
+<a name="Options"></a>
+
+## Options
+
+```
+{
+   searchBy: 'name|user',
+   sortBy: 'newest|oldest|plays|rating',
+   uploaded: 'today|week|month|anytime',
+   query: 'any',
+   limit: 50,
+   levelID: 'id',
+   userID: 'id',
+   replayID: 'id'
+}
+```

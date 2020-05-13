@@ -1,9 +1,11 @@
 ## Classes
 
+<dl>
 <a href="#HappyWheels">HappyWheels</a>
 <a href="#Level">Level</a>
 <a href="#Replay">Replay</a>
 <a href="#User">User</a>
+</dl>
 
 <a name="HappyWheels"></a>
 

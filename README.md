@@ -19,22 +19,22 @@ The main class. Used to interact with the api.
 
 <a name="HappyWheels.searchLevels"></a>
 
-### HappyWheels.searchLevels(query, [<a href="#User">options</a>]) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
+### HappyWheels.searchLevels(query, [<a href="#Options">options</a>]) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
 Searches levels in happy wheels
 
 | Param | Type | Description |
 | --- | --- | --- |
 | query | <code>String</code> | query |
-| ?<a href="#User">options</a> | <code>Object</code> | options |
+| ?<a href="#Options">options</a> | <code>Object</code> | options |
 
 <a name="HappyWheels.getFeatured"></a>
 
-### HappyWheels.getFeatured([<a href="#User">options</a>]) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
+### HappyWheels.getFeatured([<a href="#Options">options</a>]) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
 Gets happy wheels featured levels
 
 | Param | Type | Description |
 | --- | --- | --- |
-| ?<a href="#User">options</a> | <code>Object</code> | options |
+| ?<a href="#Options">options</a> | <code>Object</code> | options |
 
 <a name="HappyWheels.getLevel"></a>
 

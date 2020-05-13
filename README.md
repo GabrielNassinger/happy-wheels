@@ -2,16 +2,12 @@
 
 <dl>
 <dt><a href="#HappyWheels">HappyWheels</a></dt>
-<dd><p>The main class. Used to interact with the api.</p>
 </dd>
 <dt><a href="#Level">Level</a></dt>
-<dd><p>Represents a level on happy wheels.</p>
 </dd>
 <dt><a href="#Replay">Replay</a></dt>
-<dd><p>Represents a replay on happy wheels.</p>
 </dd>
 <dt><a href="#User">User</a></dt>
-<dd><p>Represents a user on happy wheels.</p>
 </dd>
 </dl>
 
@@ -20,9 +16,8 @@
 ## HappyWheels
 The main class. Used to interact with the api.
 
-
 * [HappyWheels](#HappyWheels)
-    * [.searchLevels(query, options)](#HappyWheels.searchLevels) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
+    * [.searchLevels(query, [options])](#HappyWheels.searchLevels) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
     * [.getFeatured(options)](#HappyWheels.getFeatured) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
     * [.getLevel(id)](#HappyWheels.getLevel) ⇒ [<code>Promise.&lt;Level&gt;</code>](#Level)
     * [.getReplay(id)](#HappyWheels.getReplay) ⇒ [<code>Promise.&lt;Replay&gt;</code>](#Replay)
@@ -32,7 +27,6 @@ The main class. Used to interact with the api.
 
 ### HappyWheels.searchLevels(query, [options]) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
 Searches levels in happy wheels
-
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -44,7 +38,6 @@ Searches levels in happy wheels
 ### HappyWheels.getFeatured([options]) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>
 Gets happy wheels featured levels
 
-
 | Param | Type | Description |
 | --- | --- | --- |
 | ?options | <code>Object</code> | options |
@@ -53,7 +46,6 @@ Gets happy wheels featured levels
 
 ### HappyWheels.getLevel(id) ⇒ [<code>Promise.&lt;Level&gt;</code>](#Level)
 Gets happy wheels level
-
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -64,7 +56,6 @@ Gets happy wheels level
 ### HappyWheels.getReplay(id) ⇒ [<code>Promise.&lt;Replay&gt;</code>](#Replay)
 Gets happy wheels replay
 
-
 | Param | Type | Description |
 | --- | --- | --- |
 | id | <code>String</code> | replay id |
@@ -74,7 +65,6 @@ Gets happy wheels replay
 ### HappyWheels.getUser(id) ⇒ [<code>Promise.&lt;User&gt;</code>](#User)
 Gets happy wheels user
 
-
 | Param | Type | Description |
 | --- | --- | --- |
 | id | <code>String</code> | user id |
@@ -83,7 +73,6 @@ Gets happy wheels user
 
 ## Level
 Represents a level on happy wheels.
-
 
 * [Level](#Level)
     * [new Level(data)](#new_Level_new)
@@ -179,7 +168,6 @@ Gets all replays from the level.
 
 ## Replay
 Represents a replay on happy wheels.
-
 
 * [Replay](#Replay)
     * [new Replay(data)](#new_Replay_new)

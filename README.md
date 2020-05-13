@@ -13,18 +13,14 @@ Represents a level on happy wheels.
 ### level.url : <code>String</code>
 The url of the level.
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 **Read only**: true  
-<a name="Level+averageRating"></a>
 
 ### level.averageRating : <code>Number</code>
 The average rating of the level.
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 **Read only**: true  
-<a name="Level+getReplays"></a>
 
-### level.getReplays(sortBy) ⇒ <code>Promise.&lt;Array.&lt;Replays&gt;&gt;</code>
+### level.getReplays(sortBy) ⇒ <code>Promise<Array<Replays>></code>
 Lists all level replays.
 
 **Kind**: instance method of [<code>Level</code>](#Level)  

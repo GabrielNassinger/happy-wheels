@@ -1,0 +1,22 @@
+{
+  "name": "happy-wheels",
+  "version": "1.0.3",
+  "description": "Node.js happy wheels API wrapper.",
+  "main": "HappyWheels.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "happy wheels"
+  ],
+  "repository": {
+    "url": "https://github.com/GabrielNassinger/happy-wheels"
+  },
+  "author": "Nassinger",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "fast-xml-parser": "^3.16.0",
+    "node-html-parser": "^1.2.16"
+  }
+}

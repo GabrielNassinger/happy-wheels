@@ -1,0 +1,23 @@
+{
+    "baseURL": "http://www.totaljerkface.com/",
+    "defaults": {
+        "searchBy": "name",
+        "sortBy": "newest",
+        "uploaded": "week",
+        "page": 1
+    },
+    "characters": [
+        "Any",
+        "Wheelchair Guy",
+        "Segway Guy",
+        "Irresponsible Dad",
+        "Effective Shopper",
+        "Moped Couple",
+        "Lawnmower Man",
+        "Explorer Guy",
+        "Santa Claus",
+        "Pogostick Man",
+        "Irresponsible Mom",
+        "Helicopter Man"
+    ]
+}

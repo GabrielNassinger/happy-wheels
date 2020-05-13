@@ -3,20 +3,6 @@ Node.js happy wheels API wrapper.
 
 ## Classes
 
-<dl>
-<dt><a href="#Level">Level</a></dt>
-<dd><p>Represents a level on happy wheels.</p>
-</dd>
-<dt><a href="#Replay">Replay</a></dt>
-<dd><p>Represents a replay on happy wheels.</p>
-</dd>
-<dt><a href="#User">User</a></dt>
-<dd><p>Represents a user on happy wheels.</p>
-</dd>
-</dl>
-
-<a name="Level"></a>
-
 ## Level
 Represents a level on happy wheels.
 

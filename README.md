@@ -294,4 +294,4 @@ Gets all levels created by this user.
 <a name="User+getProfile"></a>
 
 ### user.getProfile() ⇒ [<code>Promise.&lt;User&gt;</code>](#User)
-Fetches the user profile on [totaljerkface.com](http://www.totaljerkface.com/).
+Fetches the user's profile on [totaljerkface.com](http://www.totaljerkface.com/).

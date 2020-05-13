@@ -1,6 +1,6 @@
 ## Classes
 
-<dt><a href="#HappyWheels">HappyWheels</a> main</dt>
+<dt><a href="#HappyWheels">HappyWheels</a> - the only accessible class</dt>
 <dt><a href="#Level">Level</a></dt>
 <dt><a href="#Replay">Replay</a></dt>
 <dt><a href="#User">User</a></dt>
@@ -294,4 +294,4 @@ Gets all levels created by this user.
 <a name="User+getProfile"></a>
 
 ### user.getProfile() ⇒ [<code>Promise.&lt;User&gt;</code>](#User)
-Fetches the user's profile on [totaljerkface.com](http://www.totaljerkface.com/).
+Fetches the user's profile on [totaljerkface.com](http://www.totaljerkface.com/) and applies it to itself.

@@ -2,7 +2,7 @@
 
 <dl>
 <dt><a href="#HappyWheels">HappyWheels</a></dt>
-<dd><p>The main class.</p>
+<dd><p>The main module class.</p>
 </dd>
 <dt><a href="#Level">Level</a></dt>
 <dd><p>Represents a level on happy wheels.</p>
@@ -20,8 +20,6 @@
 ## HappyWheels
 The main class.
 
-**Kind**: global class  
-
 * [HappyWheels](#HappyWheels)
     * [.searchLevels(query, options)](#HappyWheels.searchLevels) ⇒ [<code>Array.&lt;Level&gt;</code>](#Level)
     * [.getFeatured(options)](#HappyWheels.getFeatured) ⇒ [<code>Array.&lt;Level&gt;</code>](#Level)
@@ -34,8 +32,6 @@ The main class.
 ### HappyWheels.searchLevels(query, options) ⇒ [<code>Array.&lt;Level&gt;</code>](#Level)
 Search levels in happy wheels
 
-**Kind**: static method of [<code>HappyWheels</code>](#HappyWheels)  
-
 | Param | Type | Description |
 | --- | --- | --- |
 | query | <code>String</code> | query |
@@ -46,8 +42,6 @@ Search levels in happy wheels
 ### HappyWheels.getFeatured(options) ⇒ [<code>Array.&lt;Level&gt;</code>](#Level)
 Gets happy wheels featured levels
 
-**Kind**: static method of [<code>HappyWheels</code>](#HappyWheels)  
-
 | Param | Type | Description |
 | --- | --- | --- |
 | options | <code>Object</code> | options |
@@ -56,8 +50,6 @@ Gets happy wheels featured levels
 
 ### HappyWheels.getLevel(id) ⇒ [<code>Level</code>](#Level)
 Gets happy wheels level
-
-**Kind**: static method of [<code>HappyWheels</code>](#HappyWheels)  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -68,8 +60,6 @@ Gets happy wheels level
 ### HappyWheels.getReplay(id) ⇒ [<code>Replay</code>](#Replay)
 Gets happy wheels replay
 
-**Kind**: static method of [<code>HappyWheels</code>](#HappyWheels)  
-
 | Param | Type | Description |
 | --- | --- | --- |
 | id | <code>String</code> | replay id |
@@ -79,8 +69,6 @@ Gets happy wheels replay
 ### HappyWheels.getUser(id) ⇒ [<code>User</code>](#User)
 Gets happy wheels user
 
-**Kind**: static method of [<code>HappyWheels</code>](#HappyWheels)  
-
 | Param | Type | Description |
 | --- | --- | --- |
 | id | <code>String</code> | user id |
@@ -89,8 +77,6 @@ Gets happy wheels user
 
 ## Level
 Represents a level on happy wheels.
-
-**Kind**: global class  
 
 * [Level](#Level)
     * [new Level(data)](#new_Level_new)
@@ -120,75 +106,62 @@ Represents a level on happy wheels.
 ### level.name : <code>String</code>
 The name of the level
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 <a name="Level+id"></a>
 
 ### level.id : <code>String</code>
 The id of the level
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 <a name="Level+description"></a>
 
 ### level.description : <code>String</code>
 The description of the level
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 <a name="Level+character"></a>
 
 ### level.character : <code>String</code>
 The character of the level
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 <a name="Level+author"></a>
 
-### level.author : <code>Date</code>
+### level.createdAt : <code>Date</code>
 The creation date of the level
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 <a name="Level+author"></a>
 
 ### level.author : [<code>User</code>](#User)
 The author of the level
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 <a name="Level+playCount"></a>
 
 ### level.playCount : <code>Number</code>
 The play count of the level
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 <a name="Level+votes"></a>
 
 ### level.votes : <code>Number</code>
 The votes of the level
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 <a name="Level+weightedRating"></a>
 
 ### level.weightedRating : <code>Number</code>
 The weighted rating of the level
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 <a name="Level+url"></a>
 
 ### level.url : <code>String</code>
 The level URL.
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 **Read only**: true  
 <a name="Level+averageRating"></a>
 
 ### level.averageRating : <code>Number</code>
 The average rating of the level.
 
-**Kind**: instance property of [<code>Level</code>](#Level)  
 **Read only**: true  
 <a name="Level+getReplays"></a>
 
 ### level.getReplays(sortBy) ⇒ <code>Array.&lt;Replays&gt;</code>
 Gets all replays from the level.
-
-**Kind**: instance method of [<code>Level</code>](#Level)  
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
@@ -198,8 +171,6 @@ Gets all replays from the level.
 
 ## Replay
 Represents a replay on happy wheels.
-
-**Kind**: global class  
 
 * [Replay](#Replay)
     * [new Replay(data)](#new_Replay_new)
@@ -229,81 +200,67 @@ Represents a replay on happy wheels.
 ### replay.levelID : <code>String</code>
 The ID of the replays level
 
-**Kind**: instance property of [<code>Replay</code>](#Replay)  
 <a name="Replay+level"></a>
 
 ### replay.level : <code>Object</code>
 The level of the replay
 
-**Kind**: instance property of [<code>Replay</code>](#Replay)  
 <a name="Replay+id"></a>
 
 ### replay.id : <code>String</code>
 The ID of the replay
 
-**Kind**: instance property of [<code>Replay</code>](#Replay)  
 <a name="Replay+description"></a>
 
 ### replay.description : <code>String</code>
 The description of the replay
 
-**Kind**: instance property of [<code>Replay</code>](#Replay)  
 <a name="Replay+character"></a>
 
 ### replay.character : <code>String</code>
 The character used in the replay
 
-**Kind**: instance property of [<code>Replay</code>](#Replay)  
 <a name="Replay+createdAt"></a>
 
 ### replay.createdAt : <code>Date</code>
 The creation date of the replay
 
-**Kind**: instance property of [<code>Replay</code>](#Replay)  
 <a name="Replay+author"></a>
 
 ### replay.author : [<code>User</code>](#User)
 The author of the replay
 
-**Kind**: instance property of [<code>Replay</code>](#Replay)  
 <a name="Replay+votes"></a>
 
 ### replay.votes : <code>Number</code>
 The votes of the replay
 
-**Kind**: instance property of [<code>Replay</code>](#Replay)  
 <a name="Replay+weightedRating"></a>
 
 ### replay.weightedRating : <code>Number</code>
 The weighted rating of the replay
 
-**Kind**: instance property of [<code>Replay</code>](#Replay)  
 <a name="Replay+url"></a>
 
 ### replay.url : <code>String</code>
 The replay URL.
 
-**Kind**: instance property of [<code>Replay</code>](#Replay)  
 **Read only**: true  
 <a name="Replay+averageRating"></a>
 
 ### replay.averageRating : <code>Number</code>
 The average rating of the replay.
 
-**Kind**: instance property of [<code>Replay</code>](#Replay)  
 **Read only**: true  
 <a name="Replay+getLevel"></a>
 
 ### replay.getLevel() ⇒ [<code>Level</code>](#Level)
 Gets the level of the replay.
 
-**Kind**: instance method of [<code>Replay</code>](#Replay)  
 <a name="User"></a>
 
 ## User
 Represents a user on happy wheels.
-
-**Kind**: global class  
 
 * [User](#User)
     * [new User(id)](#new_User_new)
@@ -326,29 +283,23 @@ Represents a user on happy wheels.
 ### user.username : <code>String</code>
 The username of the user
 
-**Kind**: instance property of [<code>User</code>](#User)  
 <a name="User+id"></a>
 
 ### user.id : <code>String</code>
 The ID of the user
 
-**Kind**: instance property of [<code>User</code>](#User)  
 <a name="User+profileURL"></a>
 
 ### user.profileURL : <code>String</code>
 The profile URL.
 
-**Kind**: instance property of [<code>User</code>](#User)  
 **Read only**: true  
 <a name="User+getLevels"></a>
 
 ### user.getLevels() ⇒ [<code>Level</code>](#Level)
 Gets all levels created by this user.
 
-**Kind**: instance method of [<code>User</code>](#User)  
 <a name="User+getProfile"></a>
 
 ### user.getProfile() ⇒ [<code>User</code>](#User)
 Fetches the user profile on [totaljerkface.com](http://www.totaljerkface.com/).
-
-**Kind**: instance method of [<code>User</code>](#User)  

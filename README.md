@@ -20,7 +20,7 @@
 ## HappyWheels
 The main class. Used to interact with the api.
 
-**Kind**: global class  
+**Kind**: global class
 
 * [HappyWheels](#HappyWheels)
     * [.searchLevels(query, options)](#HappyWheels.searchLevels) ⇒ <code>Promise.&lt;Array.&lt;Level&gt;&gt;</code>

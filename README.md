@@ -298,7 +298,7 @@ Fetches the user's profile on [totaljerkface.com](http://www.totaljerkface.com/)
 
 ## Options
 
-```
+```js
 {
    searchBy: 'name|user',
    sortBy: 'newest|oldest|plays|rating',

@@ -278,4 +278,4 @@ Gets all levels created by this user.
 ### user.getProfile() ⇒ [<code>User</code>](#User)
 Fetches the user profile on [totaljerkface.com](http://www.totaljerkface.com/).
 
-**Kind**: instance method of [<code>User</code>](#User)  
+**Kind**: instance method of [<code>User</code>](#User) 

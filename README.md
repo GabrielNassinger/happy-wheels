@@ -1,28 +1,14 @@
 # happy-wheels
 Node.js happy wheels API wrapper.
 
-## Classes
-
 ## Level
 Represents a level on happy wheels.
-
-**Kind**: global class  
 
 * [Level](#Level)
     * [new Level(data)](#new_Level_new)
     * [.url](#Level+url) : <code>String</code>
     * [.averageRating](#Level+averageRating) : <code>Number</code>
     * [.getReplays(sortBy)](#Level+getReplays) ⇒ <code>Promise.&lt;Array.&lt;Replays&gt;&gt;</code>
-
-<a name="new_Level_new"></a>
-
-### new Level(data)
-
-| Param | Type | Description |
-| --- | --- | --- |
-| data | <code>Object</code> | parsed XML data |
-
-<a name="Level+url"></a>
 
 ### level.url : <code>String</code>
 The url of the level.

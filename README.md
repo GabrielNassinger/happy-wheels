@@ -2,13 +2,9 @@
 
 <dl>
 <dt><a href="#HappyWheels">HappyWheels</a></dt>
-</dd>
 <dt><a href="#Level">Level</a></dt>
-</dd>
 <dt><a href="#Replay">Replay</a></dt>
-</dd>
 <dt><a href="#User">User</a></dt>
-</dd>
 </dl>
 
 <a name="HappyWheels"></a>
